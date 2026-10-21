@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cirqua Systems – Give water another life</title>
+    <meta
+      name="description"
+      content="Cirqua Systems designs, builds and runs industrial wastewater treatment plants that return up to 95% of water to use."
+   
+<link rel="icon" type="image/svg+xml" href="cirqua-icon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+  href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+  rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="wrap">
+
+<a href="#top" class="logo" aria-label="Cirqua Systems home">
+  <img src="cirqua-logo.svg" alt="Cirqua Systems" />
+</a>
+
+        <button class="burger" id="bg" aria-label="Menu" aria-expanded="false">
+          <i></i><i></i>
+        </button>
+        <div class="links" id="lk">
+          <a href="#process">Process</a><a href="#impact">Impact</a
+          ><a href="#services">Services</a><a href="#calculator">Calculator</a
+          ><a href="#contact" class="btn fill">Talk to an engineer</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" id="top">
+      <div class="rings" aria-hidden="true"><b></b><b></b><b></b></div>
+      <div class="wrap">
+        <div class="hero-copy">
+        <h1 aria-label="Give water another life.">
+          <span style="--i: 0">Give</span> <span style="--i: 1">water</span
+          ><br /><span style="--i: 2"><em>another</em></span>
+          <span style="--i: 3">life.</span>
+        </h1>
+        <p>
+          Cirqua Systems designs, builds and runs industrial wastewater plants
+          that return up to 95% of every litre to your process.
+        </p>
+              <div class="cta">
+        <a href="#process" class="btn fill">See the loop</a>
+        <a href="#calculator" class="btn">Estimate your reuse</a>
+      </div>
+    </div>
+
+    <div class="scene" id="scene" aria-hidden="true">
+      <!-- We'll insert Claude's SVG here in the next step -->
+        <svg viewBox="0 0 800 520">
+          <defs>
+            <linearGradient id="sc-w" x1="0" x2="1">
+              <stop offset="0" stop-color="#0a3f9a" stop-opacity=".2" />
+              <stop offset=".3" stop-color="#2b9bff" />
+              <stop offset=".5" stop-color="#7fe6ff" />
+              <stop offset=".7" stop-color="#2b9bff" />
+              <stop offset="1" stop-color="#0a3f9a" stop-opacity=".2" />
+            </linearGradient>
+            <radialGradient id="sc-o" cx=".5" cy=".62" r=".6">
+              <stop offset="0" stop-color="#010a18" />
+              <stop offset=".6" stop-color="#03204a" stop-opacity=".9" />
+              <stop offset=".9" stop-color="#0a79c8" stop-opacity=".85" />
+              <stop offset="1" stop-color="#45F0C5" stop-opacity=".9" />
+            </radialGradient>
+            <linearGradient id="sc-r" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#d6f6ff" />
+              <stop offset=".5" stop-color="#00D9FF" />
+              <stop offset="1" stop-color="#1060c0" />
+            </linearGradient>
+            <linearGradient
+              id="sc-f"
+              x1="0"
+              y1="372"
+              x2="0"
+              y2="480"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop offset="0" stop-color="#fff" stop-opacity=".55" />
+              <stop offset="1" stop-color="#fff" stop-opacity="0" />
+            </linearGradient>
+            <mask id="sc-m">
+              <rect x="0" y="372" width="800" height="150" fill="url(#sc-f)" />
+            </mask>
+            <filter id="sc-b"><feGaussianBlur stdDeviation="4" /></filter>
+            <filter id="sc-b2"><feGaussianBlur stdDeviation="9" /></filter>
+            <filter id="sc-wave" x="-20%" y="-20%" width="140%" height="140%">
+              <feTurbulence
+                type="fractalNoise"
+                baseFrequency="0.004 0.09"
+                numOctaves="1"
+                result="t"
+              >
+                <animate
+                  attributeName="baseFrequency"
+                  dur="7s"
+                  values="0.004 0.09;0.007 0.13;0.004 0.09"
+                  repeatCount="indefinite"
+                />
+              </feTurbulence>
+              <feDisplacementMap
+                in="SourceGraphic"
+                in2="t"
+                scale="16"
+                xChannelSelector="R"
+                yChannelSelector="G"
+              />
+            </filter>
+            <filter id="sc-wave2" x="-10%" y="-30%" width="120%" height="160%">
+              <feTurbulence
+                type="fractalNoise"
+                baseFrequency="0.012 0.03"
+                numOctaves="2"
+                result="t"
+              >
+                <animate
+                  attributeName="baseFrequency"
+                  dur="9s"
+                  values="0.012 0.03;0.02 0.045;0.012 0.03"
+                  repeatCount="indefinite"
+                />
+              </feTurbulence>
+              <feDisplacementMap
+                in="SourceGraphic"
+                in2="t"
+                scale="14"
+                xChannelSelector="R"
+                yChannelSelector="G"
+              />
+            </filter>
+            <g id="orb">
+              <path
+                d="M400 112C412 165 492 218 492 274A92 92 0 0 1 308 274C308 218 388 165 400 112Z"
+                fill="url(#sc-o)"
+              />
+              <path
+                d="M400 140C406 178 442 214 450 252L400 266L350 252C358 214 394 178 400 140Z"
+                fill="#1d7dff"
+                opacity=".35"
+                filter="url(#sc-b)"
+              />
+              <ellipse
+                cx="400"
+                cy="306"
+                rx="52"
+                ry="52"
+                fill="#000"
+                opacity=".6"
+                filter="url(#sc-b2)"
+              />
+              <ellipse
+                cx="400"
+                cy="352"
+                rx="46"
+                ry="14"
+                fill="#3cc6ff"
+                opacity=".45"
+                filter="url(#sc-b)"
+              />
+              <path
+                d="M400 112C412 165 492 218 492 274A92 92 0 0 1 308 274C308 218 388 165 400 112Z"
+                fill="none"
+                stroke="url(#sc-r)"
+                stroke-width="3.500"
+              />
+              <path
+                d="M313 292C311 322 326 346 351 358"
+                fill="none"
+                stroke="#d6f6ff"
+                stroke-width="5"
+                stroke-linecap="round"
+                opacity=".85"
+              />
+              <path
+                d="M487 290C489 320 475 344 452 357"
+                fill="none"
+                stroke="#7fe6ff"
+                stroke-width="4"
+                stroke-linecap="round"
+                opacity=".55"
+              />
+              <path
+                d="M392 150C376 192 340 226 326 262"
+                fill="none"
+                stroke="#fff"
+                stroke-width="3"
+                stroke-linecap="round"
+                opacity=".6"
+              />
+            </g>
+          </defs>
+          <g class="wv"><g id="wv" filter="url(#sc-wave2)"></g></g>
+          <ellipse
+            class="pulse"
+            cx="400"
+            cy="372"
+            rx="70"
+            ry="9"
+            fill="#bfeeff"
+            opacity=".85"
+            filter="url(#sc-b)"
+          />
+          <g mask="url(#sc-m)">
+            <g class="bob r" filter="url(#sc-wave)">
+              <use href="#orb" transform="translate(0 744) scale(1 -1)" />
+            </g>
+          </g>
+          <g class="bob"><use href="#orb" /></g>
+        </svg>
+    </div>
+  </div>
+  <div class="hint">Scroll<i></i></div>
+      <div class="hint">Scroll<i></i></div>
+    </header>
+
+    <section class="loop" id="process" aria-label="Treatment process">
+      <div class="stick">
+        <div class="wrap">
+          <div>
+            <h2>Nothing leaves.<br />Everything returns.</h2>
+            <div class="panel" id="panel" aria-live="polite">
+              <div class="stage on">
+                <h3>Intake</h3>
+                <p>
+                  Raw effluent arrives from your plant. Flow, pH and load are
+                  measured in real time so every downstream stage can adjust.
+                </p>
+                <small>Turbidity: 480 NTU</small>
+              </div>
+              <div class="stage">
+                <h3>Screening</h3>
+                <p>
+                  Fine screens and grit chambers pull out plastics, fibres and
+                  sand before they can damage pumps.
+                </p>
+                <small>Turbidity: 360 NTU</small>
+              </div>
+              <div class="stage">
+                <h3>Biological treatment</h3>
+                <p>
+                  Engineered microbial colonies digest organic load in aerated
+                  reactors, cutting BOD by more than 95%.
+                </p>
+                <small>Turbidity: 90 NTU</small>
+              </div>
+              <div class="stage">
+                <h3>Filtration</h3>
+                <p>
+                  Membrane ultrafiltration removes suspended solids and bacteria
+                  down to 0.04 microns.
+                </p>
+                <small>Turbidity: 4 NTU</small>
+              </div>
+              <div class="stage">
+                <h3>Disinfection</h3>
+                <p>
+                  UV and controlled ozone dosing neutralise remaining pathogens
+                  with no chlorine by-products.
+                </p>
+                <small>Turbidity: 0.5 NTU</small>
+              </div>
+              <div class="stage">
+                <h3>Reuse</h3>
+                <p>
+                  Clean water goes back to cooling towers, washing lines and
+                  boilers. The loop closes at Intake, and your freshwater bill
+                  falls.
+                </p>
+                <small>Turbidity: 0.2 NTU</small>
+              </div>
+            </div>
+          </div>
+          <div class="ringbox">
+            <svg
+              viewBox="0 0 500 500"
+              role="img"
+              aria-label="Six-stage circular treatment loop"
+            >
+              <defs>
+                <linearGradient id="rg" x1="0" y1="0" x2="1" y2="1">
+                  <stop stop-color="#00D9FF" />
+                  <stop offset="1" stop-color="#45F0C5" />
+                </linearGradient>
+                <filter id="gl"><feGaussianBlur stdDeviation="6" /></filter>
+              </defs>
+              <circle
+                cx="250"
+                cy="250"
+                r="190"
+                fill="none"
+                stroke="rgba(245,250,255,.1)"
+                stroke-width="10"
+              />
+              <circle
+                id="arc"
+                cx="250"
+                cy="250"
+                r="190"
+                fill="none"
+                stroke="url(#rg)"
+                stroke-width="10"
+                stroke-linecap="round"
+                transform="rotate(-90 250 250)"
+                stroke-dasharray="1194"
+                stroke-dashoffset="1194"
+              />
+              <g id="nodes"></g>
+              <circle
+                id="dot"
+                r="14"
+                fill="#F5FAFF"
+                filter="url(#gl)"
+                opacity=".8"
+              />
+              <circle id="dot2" r="8" fill="#F5FAFF" />
+            </svg>
+            <div class="cen">
+              <div><b id="ntu">480</b><span>NTU turbidity</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="nums" id="impact">
+      <div class="wrap">
+        <h2>Water that comes back, at scale.</h2>
+        <div class="grid4">
+          <div>
+            <b data-n="480" data-s="M">0</b
+            ><span>litres treated every day</span>
+          </div>
+          <div>
+            <b data-n="62">0</b><span>plants designed and operated</span>
+          </div>
+          <div>
+            <b data-n="95" data-s="%">0</b><span>average water reclaimed</span>
+          </div>
+          <div>
+            <b data-n="18">0</b><span>years of continuous operation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="svc" id="services">
+      <div class="wrap">
+        <h2>One partner from drawing to discharge permit.</h2>
+        <div class="cards">
+          <article class="card">
+            <svg viewBox="0 0 54 54">
+              <path
+                d="M8 40h38M12 40V22h12v18M30 40V12h12v28M16 28h4M34 20h4M34 28h4"
+              />
+            </svg>
+            <h3>Design and build</h3>
+            <p>
+              Modular plants sized to your flow, delivered in months rather than
+              years, with a fixed price and a guaranteed effluent quality.
+            </p>
+          </article>
+          <article class="card">
+            <svg viewBox="0 0 54 54">
+              <circle cx="27" cy="27" r="17" />
+              <path d="M27 10v8M27 36v8M10 27h8M36 27h8M27 27l9-9" />
+            </svg>
+            <h3>Operate and monitor</h3>
+            <p>
+              Our control room watches every sensor around the clock, and our
+              crews respond on site within 24 hours.
+            </p>
+          </article>
+          <article class="card">
+            <svg viewBox="0 0 54 54">
+              <path
+                d="M27 8c8 10 13 15 13 22a13 13 0 0 1-26 0c0-7 5-12 13-22zM21 32a6 6 0 0 0 6 6"
+              />
+            </svg>
+            <h3>Reuse and recovery</h3>
+            <p>
+              We turn treated water, sludge and heat into inputs for your plant,
+              and into reports your regulator accepts.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="calc" id="calculator">
+      <div class="wrap">
+        <h2>How much could you get back?</h2>
+        <div class="cbox">
+          <div>
+            <label for="f"
+              >Daily wastewater <output id="fo">500 kL</output></label
+            >
+            <input
+              id="f"
+              type="range"
+              min="50"
+              max="5000"
+              step="50"
+              value="500"
+            />
+            <label for="r">Share reused <output id="ro">70%</output></label>
+            <input id="r" type="range" min="30" max="95" step="1" value="70" />
+          </div>
+          <div class="res" aria-live="polite">
+            <div class="tank"><i id="tk"></i></div>
+            <b id="ra">0</b>
+            <p>million litres of freshwater saved each year</p>
+            <b id="rp">0</b>
+            <p>Olympic swimming pools, every year</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <h2>Ready to close your water loop?</h2>
+        <p>
+          Send us your email and a Cirqua engineer will reply within one working
+          day.
+        </p>
+        <form class="mail" id="fm">
+          <input
+            type="email"
+            required
+            placeholder="you@company.com"
+            aria-label="Work email"
+          /><button class="btn fill" type="submit">Request a call</button>
+        </form>
+        <div id="ok"></div>
+        <footer>
+          <span>© 2026 Cirqua Systems. All rights reserved.</span>
+          <nav>
+            <a href="#process">Process</a><a href="#services">Services</a
+            ><a href="#top">Back to top</a>
+          </nav>
+        </footer>
+      </div>
+    </section>
+
+    <script src="script.js">
+      
+    </script>
+  </body>
+</html>
